@@ -9,9 +9,9 @@ int sumOfEven = 0;
 int main() {
     for(int i=0; i < nums.size(); i++) {
         if (i % 2 == 0){
-          sumOfEven += nums[i];
-        } else {
           sumOfOdd += nums[i];
+        } else {
+          sumOfEven += nums[i];
         }
     }
 std::cout << "The total sum of Odd numbers are: " << sumOfOdd << ".\n";
